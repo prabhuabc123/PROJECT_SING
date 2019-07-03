@@ -1,0 +1,46 @@
+sgexams
+Grep the links on this URL http://www.sgexams.com/ (OR)
+MATHS http://www.sgexams.com/primary/2008/p6/maths
+6: 2008 2017
+5: 2009 2017
+4: 2009 2017
+3: 2009 2017
+2: 2009 2016
+ENG http://www.sgexams.com/primary/2008/p6/english
+6: 2009 2017
+5: 2009 2017
+4: 2009 2017
+3: 2009 2017
+2: 2009 2016
+SCIENCE http://www.sgexams.com/primary/2008/p6/science
+6: 2009 2017
+5: 2009 2017
+4: 2009 2017
+3: 2009 2017
+
+For each link that is generated, get the source.
+It will contain a line "<a href="/preview/5316" target="_blank">Nanyang CA1 Exam Paper</a>"
+Build Title => URL database
+	 If "Title" contains your fave schools, then 
+	 1. open the URL 
+	 2. get line with href and "/download/primary/id/5187/P6 English 2017 SA1 Henry Park Exam Paper" from URL Source
+	 3. wget that pdf
+
+TESTPAPERSFREE:
+
+year : 2004 to 2018
+level: P2 to P6
+subject query parameter : English, Maths, Science
+Sample URL:
+https://www.testpapersfree.com/school/?level=P5&year=%25&subject=Maths&type=%25&school=Nan%20Hua&Submit=Show+Test+Papers
+(OR)
+https://www.testpapersfree.com/2016/index.php?level=P6&year=2016&subject=English&type=%&school=%&Submit=Show%20Test%20Papers&page=2
+
+In above URLs, maybe look for Last ?
+&lt;&lt; First&nbsp;&nbsp;&nbsp;1 | <a href="/2016/index.php?level=P6&amp;year=2016&amp;subject=Maths&amp;type=%&amp;school=%&amp;Submit=Show Test Papers&amp;page=2">2</a> | <a href="/2016/index.php?level=P6&amp;year=2016&amp;subject=Maths&amp;type=%&amp;school=%&amp;Submit=Show Test Papers&amp;page=3">3</a>&nbsp;&nbsp;&nbsp;<a href="/2016/index.php?level=P6&amp;year=2016&amp;subject=Maths&amp;type=%&amp;school=%&amp;Submit=Show Test Papers&amp;page=3">Last &gt;&gt;</a> </table>
+
+Get paper id on each line: https://www.testpapersfree.com/show.php?testpaperid=83705
+And within that page, get the pdf URL
+
+
+
