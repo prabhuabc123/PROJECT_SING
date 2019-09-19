@@ -1,0 +1,85 @@
+Nov 29 2018
+Backend 4 probs, Architect 1 prob
+
+H 	E	A	S		H	E	A	S
+100	50	10	5		300	200	40	20
+
+Prob 2 - HEAT War
+* Equalize with half the power is good enough to win
+* Like fights like, unless there is shortage of that animal
+* HEAS : adjacent weapon can replace. 
+	 E = 2H
+	 A = 2E 
+	 S = 2A
+* Substitute lower weapons if 2 subs are available
+Eg:
+
+204	20
+100E,1E	10E
+
+0	0 	14	12
+		7,2A	5
+
+50	104	6	2
+25,4H	50	3	1
+
+QUESTIONS:
+	100	101*	20	5*
+	50,2H	50	10	3 
+
+	150	96	26	8
+	75	48	10	4
+Available: 25,2,0,1
+Short:      0,0,3,0
+Sol:	    0,2,0,0	---------> my solution. They say 75,50,10,5 instead of 75,50,10,4 which is optimal. Mail them to correct
+
+	250	50	20	15
+	100	25	10	5
+Avail	0	25	0	0
+Short	25	0	0	2.5
+Borrow 12E, short by 1H. Avail(0,12,0,0). Deploy them all and lose
+
+------------------------------------- End Problem ---------------------------------
+Problem 3: Traffic
+
+Check the https://github.com/geektrust/lengaburu-traffic code and refactor. OR write from scratch
+
+ORBIT				VEHICLE					WEATHER
+18 mil 20 c		Bike spd 10, crt 2min, sun/wind			sun - crt reduce 10%
+20 mil 10 c		Tuk  spd 12, crt 1min, sun/rainy		rain - crt inc 10%
+			Supcar spd 20, crt 3min, sun/rain/wind		win - crt no change
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
